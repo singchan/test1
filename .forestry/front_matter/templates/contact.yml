@@ -1,21 +1,20 @@
 ---
-id: contact
 label: Contact
-fields:
-  - type: textarea
-    name: footer-text
-    label: Footer Text
-    default: '                    <p>This is a creative commons template <br>for use in <a href="https://www.silex.me/">Silex website editor</a><br></p>'
-    config:
-      wysiwyg: true
-      schema:
-        format: html
-  - name: layout
-    type: text
-    hidden: true
-    label: layout
-    default: contact
-    config:
-      required: true
-name: contact.yml
 hide_body: true
+fields:
+- type: textarea
+  name: footer-text
+  label: Footer Text
+  default: '                    <p>This is a creative commons template <br>for use
+    in <a href="https://www.silex.me/">Silex website editor</a><br></p>'
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- name: layout
+  type: text
+  hidden: true
+  label: layout
+  default: contact
+  config:
+    required: true
