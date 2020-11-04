@@ -1,0 +1,13 @@
+---
+id: home
+label: Home
+fields:
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: home
+    config:
+      required: true
+name: home.yml
+hide_body: true

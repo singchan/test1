@@ -1,0 +1,13 @@
+---
+id: contact
+label: Contact
+fields:
+  - name: layout
+    type: text
+    hidden: true
+    label: layout
+    default: contact
+    config:
+      required: true
+name: contact.yml
+hide_body: true
