@@ -9,3 +9,5 @@ fields:
   default: contact
   config:
     required: true
+pages:
+- _posts/test.md
